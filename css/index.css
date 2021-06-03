@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+    --title-font: 'Sansita',sans-serif;
+    --text-font: 'Raleway',sans-serif;
+    --main-color: #263044;
+    --back-color: #ffffff;
+    --accent-color: #f65944;
+    --accent-back-color: #f5f5f5;
+    --link-color: #5db2d7;
+    --text-color:#4b4443;
+    --light-text-color: #9da5ac;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NavBar */
+.bg-dark {
+    background-color: var(--main-color)!important;
+}
+.container-fluid {
+    max-width: 980px;
+    margin: auto;
+}
+.navbar-brand {
+    text-decoration: none;
+    font-family: var(--title-font);
+    color: var(--back-color);
+    line-height: 1.4375;
+    font-size: 32px;
+    letter-spacing: -.021em;
+    cursor: pointer;
+    margin-left: 0;
+}
+.nav-link {
+    font-family: var(--text-font);
+    font-size: 18px;
+    line-height: normal;
+    text-decoration: none;
+    color: var(--back-color);
+}
+.nav-link:hover {
+    color: var(--link-color);
+    cursor: pointer;
+}
+.navbar-toggler {
+    border: none;
+    color: var(--back-color);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.collapse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s all;
+}
+#bignav {
+    display: none!important;
+}
+@media (min-width:850px) {
+    .navbar-toggler {
+        display: none;
+    }
+    .container-fluid {
+        grid-template-columns: 10% 90%;
+        align-items: center;
+    }
+    #bignav {
+        display: flex!important;
+        padding-left: 125px;
+        padding-top: 6px;
+    }
+}
+@media (min-width:985px) {
+    .container-fluid {
+        grid-template-columns: 30% 70%;
+        align-items: center;
+    }
+}
