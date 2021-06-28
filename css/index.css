@@ -92,7 +92,7 @@
 /* Want to work with us? */
 .book {
     background-size: cover;
-    background-image:linear-gradient(rgba(8, 20, 44, 0.50), rgba(8, 20, 44, 0.50)), url(/img/mainpic.webp);
+    background-image:linear-gradient(rgba(8, 20, 44, 0.50), rgba(8, 20, 44, 0.50)), url(../img/mainpic.webp);
 }
 .book-box {
     max-width: 980px;
