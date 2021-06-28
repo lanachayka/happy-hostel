@@ -88,3 +88,52 @@
         align-items: center;
     }
 }
+
+/* Want to work with us? */
+.book {
+    background-image: url(/img/mainpic.webp);
+}
+.book-box {
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book-title {
+    font-size: 55px;
+    font-style: italic;
+    letter-spacing: 0;
+    font-family: var(--title-font);
+    color: var(--back-color);
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.book-description {
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: 0;
+    font-family: var(--text-font);
+    color: var(--back-color);
+    word-wrap: break-word;
+    max-width: 250px;
+    margin-bottom: 35px;
+}
+.book-form {
+    background-color: var(--back-color);
+    max-width: 250px;
+}
+.book-form-title {
+    font-family: var(--text-font);
+    font-size: 24px;
+    line-height: 1.3;
+    color: var(--main-color);
+    word-wrap: break-word;
+}
+.book-form-text {
+    font-family: var(--text-font);
+    font-size: 18px;
+    line-height: 1.56;
+    color: var(--text-color);
+}
+
