@@ -46,11 +46,31 @@
           <p class="book-description">Welcome to the most popular hostel in the heart of London!</p>
         </div>
         <div class="book-form">
-          <h2 class="book-form-title">Want to work with us?</h2>
-          <p class="book-form-text">Send a request and get a complete list of our offers!</p>
+          <div class="book-form-text">
+            <h2 class="book-form-title">Want to work with us?</h2>
+            <p class="book-form-description">Send a request and get a complete list of our offers!</p>
+          </div>
           <div class="mb-3">
             <label for="arrialdate" class="form-label">Arrival date*</label>
             <input type="date" class="form-control" id="arrialdate" placeholder="dd/mm/yy">
+            <label for="numberOfNights" class="form-label">Number of nights</label>
+            <select class="form-select" aria-label="numberOfNights">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+            <label for="numberOfGuests" class="form-label">Number of guests</label>
+            <select class="form-select" aria-label="numberOfGuests">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <button class="book-form-button">BOOK</button>
           </div>
         </div>
         </div>

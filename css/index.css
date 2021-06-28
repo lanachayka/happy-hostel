@@ -91,7 +91,8 @@
 
 /* Want to work with us? */
 .book {
-    background-image: url(/img/mainpic.webp);
+    background-size: cover;
+    background-image:linear-gradient(rgba(8, 20, 44, 0.50), rgba(8, 20, 44, 0.50)), url(/img/mainpic.webp);
 }
 .book-box {
     max-width: 980px;
@@ -117,23 +118,75 @@
     color: var(--back-color);
     word-wrap: break-word;
     max-width: 250px;
-    margin-bottom: 35px;
 }
 .book-form {
     background-color: var(--back-color);
-    max-width: 250px;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.book-form-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 .book-form-title {
     font-family: var(--text-font);
     font-size: 24px;
     line-height: 1.3;
     color: var(--main-color);
-    word-wrap: break-word;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
 }
-.book-form-text {
+.book-form-description {
     font-family: var(--text-font);
     font-size: 18px;
     line-height: 1.56;
     color: var(--text-color);
+    text-align: center;
+}
+.form-label {
+    font-family: var(--text-font);
+    font-size: 18px;
+    line-height: 1.56;
+    color: var(--main-color);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.form-control, .form-select {
+    max-width: 250px;
+    margin-bottom: 25px;
+    background-color: var(--accent-back-color);
+}
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book-form-button {
+    background-color: var(--accent-color);
+    margin-top: 20px;
+    min-width: 250px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 15px;
+    min-height: 35px;
+}
+@media (min-width:750px) {
+    .book-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    .book-title {
+    font-size: 125px;
+    }
+    .book-description {
+    min-width: 100%;
+    }
 }
 
