@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "photo":"img/rooms-interior.webp",
+        "category":"Mixed Dorms",
+        "price":30,
+        "description":"We have a range of mixed dorms which come in a variety of sizes which allows accommodating a lot of people. They range from 3 to 5 beds. There are a personal locker and a reading light by the bed. A shared bathroom is available on each floor. Bed linen is included."
+    },
+    {
+        "id":"2",
+        "photo":"img/rooms-interior.webp",
+        "category":"Private Rooms",
+        "price":35,
+        "description":"Happy Hostel offers private rooms for those who need a dose of privacy and comfort. Perfect for couples or friends. Triple/Double/TwinShared or ensuite facilities. Air conditioning Luggage lockers and mini safes."
+    },
+    {
+        "id":"3",
+        "photo":"img/rooms-interior.webp",
+        "category":"4-8 Bedded Girls-Only Dorms",
+        "price":26,
+        "description":"Great bathrooms on every floor with hot private showers, mirrors, hairdryers & straighteners.Rooms are freshly cleaned daily. Bed linen is included. Luggage lockers and mini safes are available for hire via reception."
+    }
+]
