@@ -405,6 +405,10 @@
     }
 }
 /* Activities */
+.activities-description {
+    margin-left: 25px;
+    margin-right: 25px;
+}
 .activities-title {
     font-size: 56px;
     color: var(--main-color);
@@ -412,9 +416,73 @@
     font-family: var(--title-font);
     font-weight: 800;
     letter-spacing: -.021em;
-    text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
 }
+.activities-text {
+    color: var(--light-text-color);
+    font-size: 20px;
+    line-height: 1;
+    font-family: var(--text-font);
+}
+.activities-offer {
+    color: var(--main-color);
+    font-size: 22px;
+    line-height: 1.36;
+    font-family: var(--text-font);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.activities-offer-list {
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 1.56;
+    font-family: var(--text-font);
+}
+.activities-button {
+    background-color: var(--back-color);
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-style: solid;
+    border-color: var(--accent-color);
+    border-radius: 15px;
+    min-height: 35px;
+    color: var(--accent-color);
+    min-width: 150px;
+    font-family: var(--text-font);
+}
+.activities-photo {
+    min-width: 100%;
+    max-height: 200px;
+}
+@media (min-width:425px) {
+    .activities-photo {
+    max-height: 275px;
+    }
+}
+@media (min-width:525px) {
+    .activities-photo {
+    max-height: 350px;
+    }
+}
+@media (min-width:750px) {
+    .activities-photo {
+    max-height: 450px;
+    }
+}
+@media (min-width:850px) {
+    #activities {
+        max-width: 980px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .activities-photo {
+        max-height: 325px;
+        margin-top: 100px;
+    }
+}
+
 
 
