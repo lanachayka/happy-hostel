@@ -759,4 +759,37 @@
   }
 }
 
+/* Take a Tour of the City */
+.take-a-tour {
+  max-width: 980px;
+  margin: auto;
+  background-color: var(--back-color);
+  display: flex;
+  flex-direction: column;
+}
+.take-a-tour-title {
+  font-size: 56px;
+  color: var(--main-color);
+  line-height: 1.3;
+  font-family: var(--title-font);
+  font-weight: 800;
+  letter-spacing: -0.021em;
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.take-a-tour-photo {
+  min-width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 100px;
+}
+
+/* Tours */
+#tours {
+  background-color: var(--accent-back-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
