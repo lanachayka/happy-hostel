@@ -634,7 +634,7 @@
   margin-right: 20px;
 }
 .testimonals-title {
-  font-size: 48px;
+  font-size: 56px;
   color: var(--main-color);
   line-height: 1.3;
   font-family: var(--title-font);
@@ -686,11 +686,6 @@
   letter-spacing: 0;
   color: var(--main-color);
   text-align: center;
-}
-@media (min-width: 850px) {
-  .testimonals-title {
-  font-size: 56px;
-  }
 }
 
 /* Groups */
@@ -791,5 +786,86 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.tour-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 980px;
+  margin: auto;
+}
+.tour-box-bicycle {
+  background-size: cover;
+  background-image: linear-gradient(rgba(8, 20, 44, 0.8), rgba(8, 20, 44, 0.8)),
+    url(../img/bicycle-tours.webp);
+  background-position: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-box-walk {
+  background-size: cover;
+  background-image: linear-gradient(rgba(8, 20, 44, 0.8), rgba(8, 20, 44, 0.8)),
+    url(../img/walking-tours.webp);
+  background-position: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-box-tapas {
+  background-size: cover;
+  background-image: linear-gradient(rgba(8, 20, 44, 0.8), rgba(8, 20, 44, 0.8)),
+    url(../img/tapas-tours.webp);
+  background-position: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-small-title {
+  text-align: center;
+  color: var(--back-color);
+  font-family: var(--text-font);
+  font-size: 28px;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+.tour-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.56;
+  font-family: var(--text-font);
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+  color: var(--back-color);
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+@media (min-width: 750px) {
+  .tour-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+  .tour-box-bicycle, 
+  .tour-box-walk,
+  .tour-box-tapas {
+    height: 400px;
+  }
+  .tour-text {
+    visibility: hidden;
+  }
 }
 
