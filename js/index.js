@@ -18,9 +18,11 @@ function renderRooms() {
                 <h3 class="rooms-category">${room.category}</h3>
                 <p class="rooms-price-night"><span class="rooms-price">from $${room.price}</span>/ Night/ Person</p>
                 <p class="rooms-description">${room.description}</p>
-                <button class="rooms-button">BOOK NOW</button>
+                <a href="#book-now" class="rooms-button">BOOK NOW</a>
             </article>`;
   }
 }
 
 renderRooms();
+
+
