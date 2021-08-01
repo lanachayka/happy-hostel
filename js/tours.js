@@ -1,6 +1,6 @@
 
 function hidden() {
-  if (document.documentElement.clientWidth > 750) {
+  if (document.documentElement.clientWidth > 850) {
     document.getElementById("bicycle").hidden = true;
     document.getElementById("walk").hidden = true;
     document.getElementById("tapas").hidden = true;
