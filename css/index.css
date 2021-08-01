@@ -469,6 +469,7 @@
 }
 .activities-photo {
   min-width: 100%;
+  height: auto;
 }
 @media (min-width: 850px) {
   #activities {
@@ -785,6 +786,7 @@
 }
 .take-a-tour-photo {
   min-width: 100%;
+  height: auto;
   padding-left: 25px;
   padding-right: 25px;
   margin-bottom: 100px;
