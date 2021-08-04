@@ -468,7 +468,7 @@
   font-family: var(--text-font);
 }
 .activities-photo {
-  min-width: 100%;
+  max-width: 100%;
   margin-top: 0.05px;
   margin-bottom: 0.05px;
 }
@@ -786,7 +786,7 @@
   margin-bottom: 50px;
 }
 .take-a-tour-photo {
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
   padding-left: 25px;
   padding-right: 25px;
@@ -1085,6 +1085,7 @@
 }
 .parallax-img {
   height: 100%;
+  max-width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
