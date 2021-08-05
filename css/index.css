@@ -701,7 +701,7 @@
 }
 
 /* Groups */
-.groups {
+#groups {
   background-color: var(--main-color);
 }
 .groups-title {
@@ -1167,6 +1167,25 @@
   font-size: 32px;
   letter-spacing: -0.021em;
   cursor: pointer;
+}
+.footer-navbar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 850px) {
+  .footer-menu-box {
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .social-icons {
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 
