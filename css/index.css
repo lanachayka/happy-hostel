@@ -424,6 +424,7 @@
 .activities-description {
   margin-left: 25px;
   margin-right: 25px;
+  margin-bottom: 100px;
 }
 .activities-title {
   font-size: 56px;
@@ -457,15 +458,15 @@
 }
 .activities-button {
   background-color: var(--back-color);
-  margin-top: 20px;
-  margin-bottom: 100px;
   border-style: solid;
   border-color: var(--accent-color);
-  border-radius: 15px;
+  border-radius: 20px;
   min-height: 35px;
   color: var(--accent-color);
   min-width: 150px;
   font-family: var(--text-font);
+  padding: 10px;
+  text-decoration: none;
 }
 .activities-photo {
   max-width: 100%;
@@ -1122,6 +1123,26 @@
     min-height: 500px;
   }
 }
+.footer-form {
+  background-color: var(--back-color);
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-form-button {
+  background-color: var(--accent-color);
+  min-width: 250px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 15px;
+  min-height: 35px;
+}
+.footer-form-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 .footer-menu-box {
   max-width: 980px;
   margin-left: 25px;
@@ -1185,6 +1206,16 @@
   .social-icons {
     padding: 0px;
     margin: 0px;
+  }
+  .parallax-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-form {
+    max-width: 400px;
+  }
+  .footer-form-text {
+  margin-top: 50px;
   }
 }
 
