@@ -1085,7 +1085,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-   background-image: linear-gradient(rgba(8, 20, 44, 0.5), rgba(8, 20, 44, 0.9), var(--main-color)),
+   background-image: linear-gradient(rgba(8, 20, 44, 0.5), var(--main-color)),
     url(../img/contact.jpg);
 }
 .contacts-form {
